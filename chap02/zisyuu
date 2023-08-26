@@ -1,0 +1,9 @@
+import random
+
+while True:
+    number = random.randint(1, 30)
+    print(number)
+    if number == 5:
+        print("5が出たので終了します。")
+        break
+
